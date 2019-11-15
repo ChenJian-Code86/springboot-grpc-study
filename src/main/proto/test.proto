@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+
+option java_package = "com.tobacco.proto";
+
+
+package test;
+
+// The greeting service definition.
+service Test {
+    // Sends a greeting
+    rpc TestJpa (TestRequest) returns (TestReply) {}
+}
+
+// The request message containing the user's name.
+message TestRequest {
+    string name = 1;
+}
+
+// The response message containing the greetings
+message TestReply {
+    string message = 1;
+}
