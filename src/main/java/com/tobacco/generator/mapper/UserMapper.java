@@ -2,7 +2,6 @@ package com.tobacco.generator.mapper;
 
 import com.tobacco.generator.entities.User;
 import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Component;
 
 @Mapper
 public interface UserMapper {
